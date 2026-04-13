@@ -32,7 +32,7 @@
 &kp B       &kp L       &kp D        &kp C         &kp V                          &kp J            &kp Y            &kp O            &kp U            &kp COMMA
 &kp N       &kp R       &kp T        &kp S         &kp G                          &kp P            &kp H            &kp A            &kp E            &kp I
 &kp X       &kp Q       &kp M        &kp W         &kp Z                          &kp K            &kp F            &kp SQT          &kp SEMI         &kp DOT
-&kp LALT    &kp LCTRL   &kp LSHIFT   &kp LGUI      &mo NUMSYM   &kp SPACE        &kp ENTER        &mo NAVMOD       &kp BACKSPACE
+&kp LSHIFT  &kp LCTRL   &kp LALT     &kp LGUI      &mo NUMSYM   &kp SPACE        &kp ENTER        &mo NAVMOD       &kp BACKSPACE
             >;
         };
 
@@ -51,7 +51,7 @@
             bindings = <
 &kp ESC            &kp TAB           &kp GRAVE           &kp MINUS            &kp EQUAL                   &kp HOME          &kp PG_UP           &kp UP              &kp PG_DN            &kp END
 &sk LCTRL          &sk LALT          &sk LGUI            &sk LSHFT            &kp CAPS                    &kp INS           &kp LEFT            &kp DOWN            &kp RIGHT            &kp DEL
-&none              &kp LBKT          &kp BSLH            &kp RBKT             &kp FSLH                    &kp PSCRN         &kp PAUSE_BREAK     &kp HOME            &kp END              &kp DEL
+&kp TAB            &kp LBKT          &kp BSLH            &kp RBKT             &kp FSLH                    &kp PSCRN         &kp PAUSE_BREAK     &kp HOME            &kp END              &kp DEL
 &trans             &trans            &trans              &trans               &trans        &trans         &trans             &trans             &trans
             >;
         };
