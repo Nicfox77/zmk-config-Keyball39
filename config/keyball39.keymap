@@ -41,15 +41,15 @@
             bindings = <
 &kp F1            &kp F2            &kp F3              &kp F4               &kp F5                      &kp F6            &kp F7              &kp F8              &kp F9                &kp F10
 &kp N1            &kp N2            &kp N3              &kp N4               &kp N5                      &kp N6            &kp N7              &kp N8              &kp N9                &kp N0
-&kp GRAVE         &kp MINUS         &kp EQUAL           &kp LBKT             &kp RBKT                    &kp BSLH          &kp FSLH            &kp COMMA           &kp SEMI              &kp DOT
-&trans            &trans            &trans              &trans               &trans        &trans         &trans             &trans             &trans
+&none              &kp F11            &kp F12             &kp LBKT             &kp RBKT                    &kp BSLH           &kp FSLH            &kp COMMA           &kp SEMI              &kp DOT
+&trans             &trans            &trans              &trans               &trans        &trans         &trans             &trans             &trans
             >;
         };
 
         navmod_layer {
             label = "NAVMOD";
             bindings = <
-&kp ESC            &kp TAB           &kp GRAVE           &kp MINUS            &kp EQUAL                   &kp HOME          &kp PG_UP           &kp UP              &kp PG_DN            &kp END
+&kp ESC            &kp TAB           &kp GRAVE           &kp MINUS            &kp EQUAL                  &kp HOME          &kp PG_UP           &kp UP              &kp PG_DN            &kp END
 &sk LCTRL          &sk LALT          &sk LGUI            &sk LSHFT            &kp CAPS                    &kp INS           &kp LEFT            &kp DOWN            &kp RIGHT            &kp DEL
 &kp TAB            &kp LBKT          &kp BSLH            &kp RBKT             &kp FSLH                    &kp PSCRN         &kp PAUSE_BREAK     &kp HOME            &kp END              &kp DEL
 &trans             &trans            &trans              &trans               &trans        &trans         &trans             &trans             &trans
