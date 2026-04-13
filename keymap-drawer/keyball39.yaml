@@ -31,9 +31,9 @@ layers:
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
   - {t: ., s: '>'}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - NUMSYM
   - $$mdi:keyboard-space$$
@@ -101,7 +101,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - {t: '[', s: '{'}
   - {t: \, s: '|'}
   - {t: ']', s: '}'}
