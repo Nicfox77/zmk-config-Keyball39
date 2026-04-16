@@ -38,6 +38,14 @@
         };
     };
 
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        util_tri_layer {
+            if-layers = <NUMSYM NAVMOD>;
+            then-layer = <UTIL>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -64,9 +72,9 @@ AS(GRAVE)   AS(MINUS)   AS(EQUAL)    AS(LBKT)      AS(RBKT)                     
         navmod_layer {
             label = "NAVMOD";
             bindings = <
-&kp ESC     &kp TAB     &kp GRAVE    &kp MINUS     &kp EQUAL                     &kp HOME        &kp PG_UP       &kp UP          &kp PG_DN       &kp END
+&kp ESC     &kp LC(Z)   &kp LC(Y)    &kp LC(X)     &kp LC(C)                     &kp HOME        &kp PG_UP       &kp UP          &kp PG_DN       &kp END
 &sk LCTRL   &sk LALT    &sk LGUI     &sk LSHFT     &kp CAPS                      &kp INS         &kp LEFT        &kp DOWN        &kp RIGHT       &kp DEL
-&kp TAB     &kp LBKT    &kp BSLH     &kp RBKT      &kp FSLH                      &kp PSCRN       &kp PAUSE_BREAK &kp HOME        &kp END         &kp DEL
+&kp TAB     &kp LC(V)   &kp LC(LEFT) &kp LC(RIGHT) &kp LC(BSPC)                 &kp PSCRN       &kp PAUSE_BREAK &kp HOME        &kp END         &kp DEL
 &trans      &trans      &trans       &trans        &trans                        &trans          &trans          &trans          &trans
             >;
         };
